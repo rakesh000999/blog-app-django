@@ -8,7 +8,7 @@ def single_blog(request):
     return render(request, 'main/single_blog.html')
 
 def edit_blog(request):
-    return render(request, 'main/edit_blog/html')
+    return render(request, 'main/edit_blog.html')
 
 
 def create_blog(request):
