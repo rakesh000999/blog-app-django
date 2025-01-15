@@ -735,6 +735,10 @@ video {
   max-width: 24rem;
 }
 
+.max-w-md {
+  max-width: 28rem;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1212,6 +1216,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:max-w-md {
     max-width: 28rem;
   }
@@ -1253,6 +1261,10 @@ video {
 
   .md\:w-auto {
     width: auto;
+  }
+
+  .md\:w-full {
+    width: 100%;
   }
 
   .md\:flex-row {
@@ -1331,6 +1343,10 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:w-full {
+    width: 100%;
+  }
+
   .xl\:p-0 {
     padding: 0px;
   }
