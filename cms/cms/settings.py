@@ -124,6 +124,9 @@ import os
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
+MEDIA_URL = "media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
 LOGIN_URL = "/blog/login" #remove error that arises after routing to create page after login
 
 # Default primary key field type
